@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2684A252BD22D0100C53D5C /* SwiftUIMasonry in Frameworks */ = {isa = PBXBuildFile; productRef = F2684A242BD22D0100C53D5C /* SwiftUIMasonry */; };
+		F2747CD72B96B915005071DB /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2747CD62B96B915005071DB /* MyStory.swift */; };
+		F2747CD92B96BA7C005071DB /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2747CD82B96BA7C005071DB /* StoryModels.swift */; };
+		F2747CDB2B96BF01005071DB /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2747CDA2B96BF01005071DB /* StoryPageView.swift */; };
 		F27A6F692B956E8400E33049 /* exampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F682B956E8400E33049 /* exampleSwiftUIApp.swift */; };
 		F27A6F6B2B956E8400E33049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F6A2B956E8400E33049 /* ContentView.swift */; };
 		F27A6F6D2B956E8600E33049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27A6F6C2B956E8600E33049 /* Assets.xcassets */; };
@@ -14,6 +18,12 @@
 		F27A6F7A2B956E8600E33049 /* exampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F792B956E8600E33049 /* exampleSwiftUITests.swift */; };
 		F27A6F842B956E8600E33049 /* exampleSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F832B956E8600E33049 /* exampleSwiftUIUITests.swift */; };
 		F27A6F862B956E8600E33049 /* exampleSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F852B956E8600E33049 /* exampleSwiftUIUITestsLaunchTests.swift */; };
+		F27A6F942B9585AC00E33049 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F932B9585AC00E33049 /* HomeView.swift */; };
+		F27A6F962B9585BF00E33049 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F952B9585BF00E33049 /* StoryView.swift */; };
+		F27A6F982B9585D200E33049 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F972B9585D200E33049 /* FavoriteView.swift */; };
+		F27A6F9B2B9585ED00E33049 /* FunFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F9A2B9585ED00E33049 /* FunFactView.swift */; };
+		F27A6F9D2B95B0B900E33049 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A6F9C2B95B0B900E33049 /* Data.swift */; };
+		F28BA26E2BDA4FB500B2647E /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28BA26D2BDA4FB500B2647E /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2747CD62B96B915005071DB /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
+		F2747CD82B96BA7C005071DB /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		F2747CDA2B96BF01005071DB /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
 		F27A6F652B956E8400E33049 /* exampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27A6F682B956E8400E33049 /* exampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleSwiftUIApp.swift; sourceTree = "<group>"; };
 		F27A6F6A2B956E8400E33049 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,12 @@
 		F27A6F7F2B956E8600E33049 /* exampleSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27A6F832B956E8600E33049 /* exampleSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F27A6F852B956E8600E33049 /* exampleSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F27A6F932B9585AC00E33049 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F27A6F952B9585BF00E33049 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		F27A6F972B9585D200E33049 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		F27A6F9A2B9585ED00E33049 /* FunFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactView.swift; sourceTree = "<group>"; };
+		F27A6F9C2B95B0B900E33049 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F28BA26D2BDA4FB500B2647E /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2684A252BD22D0100C53D5C /* SwiftUIMasonry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +115,18 @@
 			isa = PBXGroup;
 			children = (
 				F27A6F682B956E8400E33049 /* exampleSwiftUIApp.swift */,
+				F27A6F9C2B95B0B900E33049 /* Data.swift */,
 				F27A6F6A2B956E8400E33049 /* ContentView.swift */,
+				F27A6F932B9585AC00E33049 /* HomeView.swift */,
+				F27A6F952B9585BF00E33049 /* StoryView.swift */,
+				F2747CDA2B96BF01005071DB /* StoryPageView.swift */,
+				F27A6F972B9585D200E33049 /* FavoriteView.swift */,
+				F27A6F9A2B9585ED00E33049 /* FunFactView.swift */,
 				F27A6F6C2B956E8600E33049 /* Assets.xcassets */,
+				F2747CD62B96B915005071DB /* MyStory.swift */,
+				F2747CD82B96BA7C005071DB /* StoryModels.swift */,
 				F27A6F6E2B956E8600E33049 /* Preview Content */,
+				F28BA26D2BDA4FB500B2647E /* helpers.swift */,
 			);
 			path = exampleSwiftUI;
 			sourceTree = "<group>";
@@ -143,6 +172,9 @@
 			dependencies = (
 			);
 			name = exampleSwiftUI;
+			packageProductDependencies = (
+				F2684A242BD22D0100C53D5C /* SwiftUIMasonry */,
+			);
 			productName = exampleSwiftUI;
 			productReference = F27A6F652B956E8400E33049 /* exampleSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,9 @@
 				Base,
 			);
 			mainGroup = F27A6F5C2B956E8400E33049;
+			packageReferences = (
+				F2684A232BD22D0000C53D5C /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */,
+			);
 			productRefGroup = F27A6F662B956E8400E33049 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2747CD92B96BA7C005071DB /* StoryModels.swift in Sources */,
+				F28BA26E2BDA4FB500B2647E /* helpers.swift in Sources */,
+				F2747CDB2B96BF01005071DB /* StoryPageView.swift in Sources */,
+				F27A6F9D2B95B0B900E33049 /* Data.swift in Sources */,
+				F27A6F942B9585AC00E33049 /* HomeView.swift in Sources */,
 				F27A6F6B2B956E8400E33049 /* ContentView.swift in Sources */,
+				F27A6F962B9585BF00E33049 /* StoryView.swift in Sources */,
+				F27A6F9B2B9585ED00E33049 /* FunFactView.swift in Sources */,
+				F27A6F982B9585D200E33049 /* FavoriteView.swift in Sources */,
 				F27A6F692B956E8400E33049 /* exampleSwiftUIApp.swift in Sources */,
+				F2747CD72B96B915005071DB /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2684A232BD22D0000C53D5C /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ciaranrobrien/SwiftUIMasonry.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2684A242BD22D0100C53D5C /* SwiftUIMasonry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2684A232BD22D0000C53D5C /* XCRemoteSwiftPackageReference "SwiftUIMasonry" */;
+			productName = SwiftUIMasonry;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F27A6F5D2B956E8400E33049 /* Project object */;
 }
